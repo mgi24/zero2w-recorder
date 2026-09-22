@@ -6,14 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
-# Media and Recording Artifacts
-downloads/*.ts
-downloads/*.mp4
-downloads/*.m4a
-downloads/*.jpg
-downloads/*.jpeg
-downloads/*.png
-!downloads/.gitkeep
+# Downloads directory
+downloads/
 DCIM/
 *.ts
 *.mp4
