@@ -274,7 +274,7 @@ def main():
         res = verify_video(v)
         report["videos"].append(res)
 
-    report_path = WORKSPACE_DIR / "verification_results.json"
+    report_path = Path(__file__).resolve().parent / "verification_results.json"
     with open(report_path, "w") as f:
         json.dump(report, f, indent=2)
 
