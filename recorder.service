@@ -1,0 +1,17 @@
+[Unit]
+Description=Raspberry Pi Zero 2 W Camera & Audio Recorder Daemon (with Web UI port 80)
+After=network.target sound.target
+
+[Service]
+Type=simple
+# Run as root so port 80 can be bound without setcap
+User=root
+WorkingDirectory=/home/mamad/recorder
+ExecStart=/usr/bin/python3 -u /home/mamad/recorder/recorder.py
+Restart=on-failure
+RestartSec=3s
+StandardOutput=append:/home/mamad/recorder/recorder.log
+StandardError=append:/home/mamad/recorder/recorder.log
+
+[Install]
+WantedBy=multi-user.target

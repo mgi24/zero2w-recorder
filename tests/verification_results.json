@@ -1,0 +1,116 @@
+{
+  "photos": [
+    {
+      "file": "IMG_20260913_130612.jpg",
+      "width": 2592,
+      "height": 1944,
+      "is_max_res": true,
+      "y_avg": 100.353,
+      "y_min": 0.0,
+      "y_max": 255.0,
+      "is_blank": false,
+      "valid": true
+    },
+    {
+      "file": "IMG_20260913_131109.jpg",
+      "width": 2592,
+      "height": 1944,
+      "is_max_res": true,
+      "y_avg": 100.075,
+      "y_min": 0.0,
+      "y_max": 255.0,
+      "is_blank": false,
+      "valid": true
+    }
+  ],
+  "videos": [
+    {
+      "file": "VID_20260913_131155.ts",
+      "container": "mpegts",
+      "is_mpegts": true,
+      "duration": 2.953767,
+      "video": {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "valid_1080p": true
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "rms_db": -43.424737,
+        "peak_db": -35.593186,
+        "active_sound": true
+      },
+      "valid": true
+    },
+    {
+      "file": "VID_20260913_131249.ts",
+      "container": "mpegts",
+      "is_mpegts": true,
+      "duration": 2.469878,
+      "video": {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "valid_1080p": true
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "rms_db": -51.723317,
+        "peak_db": -41.843693,
+        "active_sound": true
+      },
+      "valid": true
+    },
+    {
+      "file": "VID_20260913_131312.ts",
+      "container": "mpegts",
+      "is_mpegts": true,
+      "duration": 1.676644,
+      "video": {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "valid_1080p": true
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "rms_db": -50.714646,
+        "peak_db": -41.244166,
+        "active_sound": true
+      },
+      "valid": true
+    },
+    {
+      "file": "VID_20260913_131326.ts",
+      "container": "mpegts",
+      "is_mpegts": true,
+      "duration": 0.749989,
+      "video": {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "valid_1080p": true
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "rms_db": -52.498097,
+        "peak_db": -43.215596,
+        "active_sound": true
+      },
+      "valid": true
+    }
+  ]
+}

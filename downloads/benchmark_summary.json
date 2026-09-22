@@ -1,0 +1,51 @@
+{
+  "csi_imx708": {
+    "metrics": {
+      "avg_cpu_percent": 23.0,
+      "max_cpu_percent": 41.0,
+      "min_cpu_percent": 4.0,
+      "start_temp_c": 52.1,
+      "max_temp_c": 55.8,
+      "end_temp_c": 52.6,
+      "avg_ram_used_mb": 217.3,
+      "peak_ram_used_mb": 226.9,
+      "sample_count": 26
+    },
+    "analysis": {
+      "file_size_mb": 5.92,
+      "duration_sec": 7.79,
+      "total_frames": 0,
+      "measured_avg_fps": 30.0,
+      "fps_jitter_ms": 0.0,
+      "min_frame_interval_ms": 0,
+      "max_frame_interval_ms": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "usb_webcam": {
+    "metrics": {
+      "avg_cpu_percent": 26.6,
+      "max_cpu_percent": 30.3,
+      "min_cpu_percent": 25.6,
+      "start_temp_c": 51.0,
+      "max_temp_c": 53.7,
+      "end_temp_c": 53.7,
+      "avg_ram_used_mb": 139.5,
+      "peak_ram_used_mb": 171.2,
+      "sample_count": 23
+    },
+    "analysis": {
+      "duration_sec": 11.96,
+      "total_frames_captured": 157,
+      "expected_frames_at_30fps": 360,
+      "dropped_frames": 203,
+      "measured_avg_fps": 13.13,
+      "fps_jitter_ms": 1.86,
+      "min_frame_interval_ms": 75.0,
+      "max_frame_interval_ms": 93.1,
+      "audio_file_recorded": true,
+      "audio_size_bytes": 1152044
+    }
+  }
+}

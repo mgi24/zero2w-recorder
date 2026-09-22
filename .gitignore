@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Media and Recording Artifacts
+downloads/*.ts
+downloads/*.mp4
+downloads/*.m4a
+downloads/*.jpg
+downloads/*.jpeg
+downloads/*.png
+!downloads/.gitkeep
+DCIM/
+*.ts
+*.mp4
+*.h264
+*.m4a
+*.jpg
+*.jpeg
+*.png
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+/tmp/

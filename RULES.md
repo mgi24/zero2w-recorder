@@ -1,0 +1,1 @@
+jika anda mau download apapun dari rasberry pinya, wajib masukin ke folder downloads!
